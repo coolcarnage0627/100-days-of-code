@@ -1,4 +1,3 @@
-// Date: 20/09/2025
 #include <stdio.h>
 
 int main() {
