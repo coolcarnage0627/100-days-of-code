@@ -2,10 +2,10 @@
 
 
 int main() {
-    float principal, rate, time;
+    float principal, rate, time; // Variables to store principal, rate, and time
     float simpleInterest, compoundInterest, amount;
 
-    
+    // Prompt user for principal amount
     printf("Enter principal amount: ");
     scanf("%f", &principal);
 
