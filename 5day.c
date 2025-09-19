@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 int main() {
-    int num;
+    int num; // Variable to store the integer input
 
-    
+    // Prompt user for input
     printf("Enter an integer: ");
     scanf("%d", &num);
 
