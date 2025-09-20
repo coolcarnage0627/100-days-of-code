@@ -1,9 +1,10 @@
+// Date: 20/09/2025
 #include <stdio.h>
 
 int main() {
-    int year;
+    int year; // Variable to store the year input
 
-
+    // Prompt user for input
     printf("Enter a year: ");
     scanf("%d", &year);
 
