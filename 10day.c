@@ -1,4 +1,5 @@
 #include <stdio.h>
+// Minor change for commit ordering
 
 int main() {
     float side1, side2, side3;
@@ -7,7 +8,7 @@ int main() {
     printf("Enter three sides of the triangle: ");
     scanf("%f %f %f", &side1, &side2, &side3);
 
-    // Check for triangle validity
+    // Check the triangle for validity
     if ((side1 + side2 > side3) && (side1 + side3 > side2) && (side2 + side3 > side1)) {
 
         // Classify the triangle
